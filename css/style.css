@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.page-container{
+	width:80%;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+nav{
+	list-style-type: none;
+}
+.nav {
+	background: grey;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+}
+.nav li{
+	display: inline-block;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.nav ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+.album1{
+	margin: 0 auto;
+	width: 100%;
+}
+.album1 ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+
+.album1 li {
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.album2{
+	margin: 0 auto;
+	width: 100%;
+}
+.album2 ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+
+.album2 li {
+	display: inline-block;
+	border: 2px solid black;
+}
+.album3{
+	margin: 0 auto;
+	width: 100%;
+}
+.album3 ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+
+.album3 li {
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.album1, .album2, .album3{
+	display:none;
+}
+.show {
+	display: block;
+}
+
+.imgBig{
+
+	width: 1000px;
+	height: 1000px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.hide{ 
+display: none;
+}
+

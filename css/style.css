@@ -28,7 +28,6 @@ nav{
 	text-align: center;
 	border: 2px solid black;
 }
-
 .nav ul li img{
 	width: 350px;
 	height: 350px;
@@ -43,12 +42,10 @@ nav{
 	height: 350px;
 	list-style-type: none;
 }
-
 .album1 li {
 	display: inline-block;
 	border: 2px solid black;
 }
-
 .album2{
 	margin: 0 auto;
 	width: 100%;
@@ -83,17 +80,27 @@ nav{
 }
 .show {
 	display: block;
+	-webkit-transition: all 1s ease;
 }
 
-.imgBig{
+ul li img.imgBig{
 
-	width: 1000px;
-	height: 1000px;
-	margin: 0px;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
 	padding: 0px;
 	text-align: center;
+	display: inline-block;
+	float: left;
+	-webkit-transition: all 1s ease;
 }
 .hide{ 
 display: none;
 }
 
+/*.album1 img:hover{
+	width: 600px;
+	text-align: center;
+	-webkit-transition: all 1s ease;
+}
+*/

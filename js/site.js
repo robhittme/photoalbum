@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	var $album1photos = (".album1photos")
 	var showPage = function() {
 		event.preventDefault();
 
